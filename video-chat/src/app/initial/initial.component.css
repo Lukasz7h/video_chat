@@ -1,0 +1,18 @@
+button{
+    width: 170px;
+    height: 35px;
+    outline: none;
+    background-color: rgb(189, 135, 109);
+    border: 0px;
+    cursor: pointer;
+    color: aliceblue;
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    letter-spacing: 2px;
+    transition: all 0.4s ease-in;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: rgb(30, 61, 102);
+}

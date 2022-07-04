@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: url("./app/svg/endless-constellation.svg");
+}
+
+app-initial{
+    width: 520px;
+    height: 155px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(240, 248, 255, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(165, 147, 42, 0.137);
+    align-items: center;
+    padding: 30px 0px;
+}
+
+form>*{
+    margin-top: 12px;
+}
+
+form>input{
+    width: 32%;
+    text-align: center;
+    color: rgb(33, 65, 92);
+}
+
+form>button{
+    width: 22%;
+}
+
+form>label{
+    font-family: 'Inconsolata', monospace;
+    color: aliceblue;
+}

@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  min-height: 90vh;
+  background: url("./prism.png");
+  font-family: 'Inconsolata', monospace;
+}
+
+#userLogin{
+  text-align: center;
+  color: aliceblue;
+  font-family: 'Inconsolata', monospace;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  font-size: 34px;
+}
+
+.dialWrapper {
+  width: 300px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+.dialNumpadHWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  background-color: #a9d0b3;
+}
+
+.dialNumber {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.incomingWrapper {
+  width: 300px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  background-color: #263675;
+  color: aliceblue;
+  height: fit-content;
+}
+
+.itemWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.actionButton {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.dialActionButton {
+  display: flex;
+  width: 80px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#callName{
+  font-size: 18px;
+  height: 45px;
+  text-align: center;
+}
+
+#errorMessage {
+  color: red;
+}
+
+#otherUserName, #mainUser{
+  text-align: center;
+}
+
+#mainHeader{
+  text-align: center;
+  font-size: 48px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb,
+  0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+  color: aliceblue;
+}
+
+#videos{
+  display: flex;
+  width: 100vw;
+  background: #2e0f48cc;
+  height: 410px;
+  justify-content: center;
+  padding-top: 10px;
+  color: whitesmoke;
+  box-shadow: 0px 25px 34px 14px #2e0f48cc;
+}
+
+#remoteVideoDiv{
+  margin-left: 30px;
+}
