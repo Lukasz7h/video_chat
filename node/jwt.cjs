@@ -23,8 +23,10 @@ function getJwt(req, res, isSocket)
         if(!req.headers.cookie && isSocket) {
             return resolve(undefined);
         };
+
+        if(!req.headers.cookie.includes("jwt")) return resolve(undefined);
         
-        req.headers.cookie.split(",").forEach( async(element) => {
+        req.headers.cookie.split(";").forEach( async(element) => {
             if( element.includes("jwt") )
             {
                 if(!find) setModule();
